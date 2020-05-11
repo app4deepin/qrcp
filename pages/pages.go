@@ -28,11 +28,11 @@ var Upload = `
 <body>
     <div class="container">
         <div class="row">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
   <defs>
-    <filter id="folder-downloads-a" width="124.3%" height="128.1%" x="-12.2%" y="-14.1%" filterUnits="objectBoundingBox">
-      <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+    <filter id="folder-download-48px-a" width="131%" height="136.1%" x="-15.5%" y="-18.1%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
       <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
       <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
       <feMerge>
@@ -40,40 +40,41 @@ var Upload = `
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <linearGradient id="folder-downloads-b" x1="50%" x2="50%" y1="0%" y2="37.968%">
+    <linearGradient id="folder-download-48px-c" x1="50%" x2="50%" y1="0%" y2="37.968%">
       <stop offset="0%" stop-color="#00B8FF"/>
       <stop offset="100%" stop-color="#2E5DFF"/>
     </linearGradient>
-    <linearGradient id="folder-downloads-e" x1="50%" x2="50%" y1="0%" y2="11.796%">
+    <path id="folder-download-48px-b" d="M24,2.5 L24,2.5 C24.6039656,4.00991389 26.0663554,5 27.6925824,5 L36.8288288,5 C39.6847878,5 42,7.31521219 42,10.1711712 L42,30.8288288 C42,33.6847878 39.6847878,36 36.8288288,36 L5.17117117,36 C2.31521219,36 -4.13946316e-14,33.6847878 -4.17443857e-14,30.8288288 L-4.35207426e-14,5.17117117 C-4.38704967e-14,2.31521219 2.31521219,-3.23379704e-14 5.17117117,-3.28626015e-14 L20.3074176,-3.10862447e-14 C21.9336446,-3.13849777e-14 23.3960344,0.990086111 24,2.5 Z"/>
+    <linearGradient id="folder-download-48px-g" x1="50%" x2="50%" y1="0%" y2="11.796%">
       <stop offset="0%" stop-color="#FFF"/>
       <stop offset="100%" stop-color="#CEF5FF"/>
     </linearGradient>
-    <rect id="folder-downloads-d" width="404" height="166" x="20" y="64" rx="36"/>
-    <filter id="folder-downloads-c" width="108.9%" height="121.7%" x="-4.5%" y="-10.8%" filterUnits="objectBoundingBox">
+    <path id="folder-download-48px-f" d="M5.32432432,7.08450704 L36.6756757,7.08450704 C38.5116493,7.08450704 40,8.57285774 40,10.4088314 L40,19.7601827 C40,21.5961563 38.5116493,23.084507 36.6756757,23.084507 L5.32432432,23.084507 C3.4883507,23.084507 2,21.5961563 2,19.7601827 L2,10.4088314 C2,8.57285774 3.4883507,7.08450704 5.32432432,7.08450704 Z"/>
+    <filter id="folder-download-48px-e" width="107.9%" height="120.9%" x="-3.9%" y="-9.5%" filterUnits="objectBoundingBox">
       <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
     </filter>
-    <filter id="folder-downloads-f" width="106.9%" height="116.9%" x="-3.5%" y="-8.4%" filterUnits="objectBoundingBox">
-      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetInner1"/>
+    <filter id="folder-download-48px-h" width="107.9%" height="120.9%" x="-3.9%" y="-9.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
       <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
       <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
     </filter>
-    <radialGradient id="folder-downloads-g" cx="50%" cy="0%" r="117.589%" fx="50%" fy="0%" gradientTransform="scale(.65766 1) rotate(84.615 .63 .143)">
+    <radialGradient id="folder-download-48px-i" cx="50%" cy="0%" r="117.613%" fx="50%" fy="0%" gradientTransform="matrix(.06171 .99538 -.63989 .096 .47 -.498)">
       <stop offset="0%" stop-color="#48D5FF"/>
       <stop offset="100%" stop-color="#0083F6"/>
     </radialGradient>
-    <linearGradient id="folder-downloads-j" x1="50%" x2="50%" y1="0%" y2="100%">
+    <linearGradient id="folder-download-48px-l" x1="50%" x2="50%" y1="0%" y2="100%">
       <stop offset="0%" stop-color="#FFF"/>
       <stop offset="100%" stop-color="#FFF" stop-opacity=".6"/>
     </linearGradient>
-    <circle id="folder-downloads-i" cx="100" cy="100" r="100"/>
-    <filter id="folder-downloads-h" width="126%" height="126%" x="-13%" y="-11%" filterUnits="objectBoundingBox">
-      <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+    <circle id="folder-download-48px-k" cx="11" cy="11" r="11"/>
+    <filter id="folder-download-48px-j" width="131.8%" height="131.8%" x="-15.9%" y="-11.4%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42905776   0 0 0 0 0.968670281  0 0 0 0.5 0"/>
     </filter>
-    <linearGradient id="folder-downloads-k" x1="50%" x2="50%" y1="0%" y2="100%">
+    <linearGradient id="folder-download-48px-m" x1="50%" x2="50%" y1="0%" y2="100%">
       <stop offset="0%" stop-color="#FF3D3D"/>
       <stop offset="19.361%" stop-color="#E3FF00"/>
       <stop offset="48.269%" stop-color="#00A2EF"/>
@@ -81,20 +82,28 @@ var Upload = `
     </linearGradient>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <g filter="url(#folder-downloads-a)" transform="translate(34 90)">
-      <path fill="url(#folder-downloads-b)" d="M248,23 L248,23 C254.072274,36.9662297 267.850687,46 283.079872,46 L388,46 C418.927946,46 444,71.072054 444,102 L444,328 C444,358.927946 418.927946,384 388,384 L56,384 C25.072054,384 -3.88449831e-14,358.927946 -4.26325641e-14,328 L-4.26325641e-14,56 C-4.64201452e-14,25.072054 25.072054,-2.27403379e-14 56,-2.84217094e-14 L212.920128,-7.10542736e-15 C228.149313,-2.34292169e-14 241.927726,9.03377035 248,23 Z"/>
-      <use fill="#000" filter="url(#folder-downloads-c)" xlink:href="#folder-downloads-d"/>
-      <use fill="url(#folder-downloads-e)" xlink:href="#folder-downloads-d"/>
-      <use fill="#000" filter="url(#folder-downloads-f)" xlink:href="#folder-downloads-d"/>
-      <path fill="url(#folder-downloads-g)" d="M0,0 L444,0 L444,236 C444,266.927946 418.927946,292 388,292 L56,292 C25.072054,292 3.78758101e-15,266.927946 0,236 L0,0 Z" transform="translate(0 92)"/>
+    <g filter="url(#folder-download-48px-a)" transform="translate(3 8)">
+      <mask id="folder-download-48px-d" fill="#fff">
+        <use xlink:href="#folder-download-48px-b"/>
+      </mask>
+      <use fill="url(#folder-download-48px-c)" xlink:href="#folder-download-48px-b"/>
+      <g mask="url(#folder-download-48px-d)">
+        <use fill="#000" filter="url(#folder-download-48px-e)" xlink:href="#folder-download-48px-f"/>
+        <use fill="url(#folder-download-48px-g)" xlink:href="#folder-download-48px-f"/>
+        <use fill="#000" filter="url(#folder-download-48px-h)" xlink:href="#folder-download-48px-f"/>
+      </g>
+      <g fill="url(#folder-download-48px-i)" mask="url(#folder-download-48px-d)">
+        <path d="M-3.55271368e-15,0.375 L42,0.375 L42,22.2038288 C42,25.0597878 39.6847878,27.375 36.8288288,27.375 L5.17117117,27.375 C2.31521219,27.375 -2.31478116e-15,25.0597878 -2.66453526e-15,22.2038288 L-3.55271368e-15,0.375 Z" transform="translate(0 8.625)"/>
+      </g>
     </g>
-    <g transform="translate(156 220)">
-      <use fill="#000" filter="url(#folder-downloads-h)" xlink:href="#folder-downloads-i"/>
-      <use fill="url(#folder-downloads-j)" xlink:href="#folder-downloads-i"/>
-      <path fill="#FFF" stroke="url(#folder-downloads-k)" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M128,48 C128,50.209139 125.641085,52 123.666667,52 L80.3333333,52 C78.3589154,52 76,50.209139 76,48 C76,45.790861 78.3589154,44 80.3333333,44 L123.666667,44 C125.641085,44 128,45.790861 128,48 Z M76,69.6 L76,66.4 C76,63.2 78.8888889,60 81.7777778,60 L122.222222,60 C125.111111,60 128,63.2 128,66.4 L128,69.6 C128,72.8 125.111111,76 122.222222,76 L81.7777778,76 C78.8888889,76 76,72.8 76,69.6 Z M76.981772,94.7318606 L76.981772,89.8666666 C76.981772,86.9333333 79.8446514,84 82.7075309,84 L122.782572,84 C125.645451,84 128.508331,86.9333333 128.508331,89.8666667 L128.508332,94.7318607 C128.508334,103.564622 135.671573,110.73 144.507875,110.73 L144.000461,110.73 C152.83436,110.73 155.077544,115.92998 149.005387,122.344481 L112.994613,160.385519 C106.920028,166.802585 97.0775442,166.80002 91.0053873,160.385519 L54.9946127,122.344481 C48.9200275,115.927415 51.1669434,110.73 60.0078161,110.73 L60.9739561,110.73 C69.8252188,110.73 76.9817721,103.567389 76.981772,94.7318606 Z"/>
+    <g transform="translate(13 19)">
+      <use fill="#000" filter="url(#folder-download-48px-j)" xlink:href="#folder-download-48px-k"/>
+      <use fill="url(#folder-download-48px-l)" xlink:href="#folder-download-48px-k"/>
+      <path fill="#FFF" stroke="url(#folder-download-48px-m)" d="M15,13.5 C14.1715729,13.5 13.5,12.8284271 13.5,12 L13.5,11 C13.5,10.7238576 13.2761424,10.5 13,10.5 L9,10.5 C8.72385763,10.5 8.5,10.7238576 8.5,11 L8.5,12 C8.5,12.8284271 7.82842712,13.5 7,13.5 L6,13.5 C5.91289571,13.5 5.82935899,13.534602 5.76776695,13.5961941 C5.63950818,13.7244528 5.63950818,13.9324014 5.76776695,14.0606602 L10.6464466,18.9393398 C10.8417088,19.134602 11.1582912,19.134602 11.3535534,18.9393398 L16.232233,14.0606602 C16.2938251,13.9990681 16.3284271,13.9155314 16.3284271,13.8284271 C16.3284271,13.6470418 16.1813853,13.5 16,13.5 L15,13.5 Z M8.50925148,4.5086725 C8.50616765,4.51156334 8.5,4.51156334 8.5,4.5 C8.5,4.48843666 8.50616765,4.48843666 8.50925148,4.4913275 Z M9,6.5 C8.72385763,6.5 8.5,6.72385763 8.5,7 L8.5,8 C8.5,8.27614237 8.72385763,8.5 9,8.5 L13,8.5 C13.2761424,8.5 13.5,8.27614237 13.5,8 L13.5,7 C13.5,6.72385763 13.2761424,6.5 13,6.5 L9,6.5 Z"/>
     </g>
   </g>
 </svg>
+
 
         </div>
         <div class="row">
