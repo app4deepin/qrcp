@@ -17,7 +17,7 @@ var Upload = `
     /*# sourceMappingURL=bootstrap.min.css.map */
     </style>
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>qrcp</title>
+    <title>File Drop</title>
     <style>
         body {
             margin: 10px;
@@ -28,145 +28,105 @@ var Upload = `
 <body>
     <div class="container">
         <div class="row">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                width="50%" viewBox="0 0 804.666 306.14" enable-background="new 0 0 804.666 306.14" xml:space="preserve">
-            <g>
-                <g>
-                    <polygon fill="#00AEEF" points="246.355,182.111 82.612,290.467 82.688,198.443 254.354,116.233 		"/>
-                </g>
-                <g>
-                    <g>
-                        <g>
-                            <g>
-                                <polygon fill="#F9ED32" points="31.388,227.121 154.208,165.906 158.21,181.887 250.908,132.033 250.911,171.207 
-                                    386.376,31.251 284.368,75.32 284.368,37.369 195.419,82.664 177.044,36.152 31.388,91.638 					"/>
-                            </g>
-                            <g>
-                                <path fill="#231F20" d="M26.388,235.199V88.193L179.88,29.721l18.17,45.992l91.318-46.502v38.502l118.027-50.989
-                                    L245.912,183.561l-0.003-43.162l-90.988,48.933l-4.052-16.176L26.388,235.199z M36.388,95.084v123.957l121.159-60.387
-                                    l3.952,15.785l94.408-50.773l0.003,35.185L365.356,45.779l-85.988,37.147v-37.4l-86.58,44.088l-18.58-47.031L36.388,95.084z"/>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-                <g>
-                    <g>
-                        <g>
-                            <path fill="#00AEEF" d="M217.093,114.078c0,7.662-5.496,15.098-11.062,17.955c-5.566,2.861-8.879,3.879-13.932,4.084
-                                c-5.045,0.205-13.875-6.209-13.875-13.871V35.968c0-7.66,6.214-13.871,13.875-13.871h11.122c7.661,0,13.872,6.211,13.872,13.871
-                                V114.078z"/>
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <path fill="#231F20" d="M191.862,141.427c-8.348,0-18.938-9.035-18.938-19.182V35.968c0-10.574,8.604-19.18,19.174-19.18h11.122
-                                c10.575,0,19.177,8.605,19.177,19.18v78.109c0,10.186-7.014,19.117-13.945,22.678c-6.338,3.254-10.411,4.43-16.136,4.662
-                                C192.162,141.421,192.015,141.427,191.862,141.427z M192.099,27.4c-4.723,0-8.565,3.844-8.565,8.568v86.277
-                                c0,4.402,6.062,8.57,8.329,8.57h0.021c4.183-0.168,6.7-0.922,11.721-3.5c3.939-2.02,8.189-7.654,8.189-13.238V35.968
-                                c0-4.725-3.849-8.568-8.573-8.568H192.099z"/>
-                        </g>
-                    </g>
-                </g>
-                <g>
-                    <g>
-                        <g>
-                            <path fill="#00AEEF" d="M258.661,93.66c0,7.914-2.922,13.332-7.207,17.977c-4.081,4.428-10.127,9.779-17.783,9.779
-                                c-7.662,0-13.875-6.211-13.875-13.871V45.755c0-7.66,6.213-13.871,13.875-13.871h11.121c7.661,0,13.869,6.211,13.869,13.871
-                                V93.66z"/>
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <path fill="#231F20" d="M233.671,126.718c-10.576,0-19.178-8.605-19.178-19.174V45.755c0-10.568,8.602-19.174,19.178-19.174
-                                h11.121c10.574,0,19.178,8.605,19.178,19.174V93.66c0,8.346-2.738,15.199-8.615,21.572
-                                C252.731,118.074,244.761,126.718,233.671,126.718z M233.671,37.193c-4.725,0-8.568,3.846-8.568,8.562v61.789
-                                c0,4.725,3.844,8.562,8.568,8.562c4.397,0,8.809-2.562,13.885-8.066c4.066-4.41,5.803-8.713,5.803-14.381V45.755
-                                c0-4.717-3.841-8.562-8.566-8.562H233.671z"/>
-                        </g>
-                    </g>
-                </g>
-                <g>
-                    <g>
-                        <g>
-                            <path fill="#00AEEF" d="M175.526,128.376c0,7.66-6.21,13.873-13.879,13.873H150.53c-7.661,0-13.871-6.213-13.871-13.873V33.933
-                                c0-7.66,6.21-13.871,13.871-13.871h11.117c7.669,0,13.879,6.211,13.879,13.871V128.376z"/>
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <path fill="#231F20" d="M161.647,147.554H150.53c-10.57,0-19.174-8.605-19.174-19.178V33.933c0-10.572,8.604-19.18,19.174-19.18
-                                h11.117c10.58,0,19.182,8.607,19.182,19.18v94.443C180.829,138.949,172.228,147.554,161.647,147.554z M150.53,25.363
-                                c-4.725,0-8.566,3.848-8.566,8.57v94.443c0,4.725,3.842,8.568,8.566,8.568h11.117c4.729,0,8.574-3.844,8.574-8.568V33.933
-                                c0-4.723-3.846-8.57-8.574-8.57H150.53z"/>
-                        </g>
-                    </g>
-                </g>
-                <g>
-                    <g>
-                        <g>
-                            <path fill="#00AEEF" d="M133.958,115.712c0,7.66-6.211,13.871-13.871,13.871h-8.676c-7.66,0-13.87-6.211-13.87-13.871V45.771
-                                c0-7.662,6.21-13.873,13.87-13.873h8.676c7.66,0,13.871,6.211,13.871,13.873V115.712z"/>
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <path fill="#231F20" d="M120.087,134.884h-8.676c-10.57,0-19.174-8.6-19.174-19.172V45.771c0-10.576,8.604-19.182,19.174-19.182
-                                h8.676c10.572,0,19.174,8.605,19.174,19.182v69.941C139.261,126.285,130.659,134.884,120.087,134.884z M111.411,37.201
-                                c-4.721,0-8.566,3.842-8.566,8.57v69.941c0,4.725,3.846,8.568,8.566,8.568h8.676c4.721,0,8.565-3.844,8.565-8.568V45.771
-                                c0-4.729-3.845-8.57-8.565-8.57H111.411z"/>
-                        </g>
-                    </g>
-                </g>
-                <g>
-                    <g>
-                        <g>
-                            <path fill="#00AEEF" d="M83.612,222.221V108.378l85.373-53.645c0,0,14.189,23.855-2.943,41.402
-                                c-17.142,17.547-29.383,22.033-29.383,22.033s29.383,29.385,21.627,67.336"/>
-                        </g>
-                    </g>
-                    <g>
-                        <g>
-                            <path fill="#231F20" d="M83.612,291.561c-2.929,0-5.305-2.373-5.305-5.303V105.445l92.459-58.098l2.777,4.676
-                                c5.627,9.463,12.094,31.637-3.71,47.816c-10.362,10.605-19.106,16.703-24.712,19.971c8.459,10.633,24.678,35.84,18.361,66.758
-                                c-0.586,2.867-3.387,4.719-6.258,4.135c-2.869-0.584-4.721-3.393-4.135-6.26c7.097-34.756-19.906-62.254-20.182-62.524
-                                l-5.873-5.877l7.795-2.855c0.092-0.031,11.52-4.488,27.412-20.758c5.785-5.92,7.975-13.449,6.52-22.369
-                                c-0.478-2.912-1.277-5.531-2.062-7.627L88.918,111.31v174.948C88.918,289.188,86.542,291.561,83.612,291.561z"/>
-                        </g>
-                    </g>
-                </g>
-            </g>
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <filter id="folder-downloads-a" width="129.3%" height="133.8%" x="-14.6%" y="-16.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="folder-downloads-c" x1="50%" x2="50%" y1="0%" y2="37.968%">
+      <stop offset="0%" stop-color="#00B8FF"/>
+      <stop offset="100%" stop-color="#2E5DFF"/>
+    </linearGradient>
+    <path id="folder-downloads-b" d="M46,4.5 L46,4.5 C47.2162027,7.23645617 49.9298769,9 52.9244289,9 L71.6576577,9 C77.3695756,9 82,13.6304244 82,19.3423423 L82,60.6576577 C82,66.3695756 77.3695756,71 71.6576577,71 L10.3423423,71 C4.63042439,71 -4.37094128e-14,66.3695756 -4.4408921e-14,60.6576577 L-4.26325641e-14,10.3423423 C-4.33320723e-14,4.63042439 4.63042439,-2.38197334e-14 10.3423423,-2.48689958e-14 L39.0755711,-2.7533531e-14 C42.0701231,-2.80836213e-14 44.7837973,1.76354383 46,4.5 Z"/>
+    <linearGradient id="folder-downloads-g" x1="50%" x2="50%" y1="0%" y2="11.796%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#CEF5FF"/>
+    </linearGradient>
+    <rect id="folder-downloads-f" width="74" height="31" x="4" y="12" rx="6.649"/>
+    <filter id="folder-downloads-e" width="108.1%" height="119.4%" x="-4.1%" y="-9.7%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <filter id="folder-downloads-h" width="106.8%" height="116.1%" x="-3.4%" y="-8.1%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0"/>
+    </filter>
+    <radialGradient id="folder-downloads-i" cx="50%" cy="0%" r="117.588%" fx="50%" fy="0%" gradientTransform="matrix(.06172 .9956 -.65551 .09375 .47 -.498)">
+      <stop offset="0%" stop-color="#48D5FF"/>
+      <stop offset="100%" stop-color="#0083F6"/>
+    </radialGradient>
+    <linearGradient id="folder-downloads-l" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity=".6"/>
+    </linearGradient>
+    <circle id="folder-downloads-k" cx="19" cy="19" r="19"/>
+    <filter id="folder-downloads-j" width="126.3%" height="126.3%" x="-13.2%" y="-10.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0.42905776   0 0 0 0 0.968670281  0 0 0 0.5 0"/>
+    </filter>
+    <linearGradient id="folder-downloads-m" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF3D3D"/>
+      <stop offset="19.361%" stop-color="#E3FF00"/>
+      <stop offset="48.269%" stop-color="#00A2EF"/>
+      <stop offset="100%" stop-color="#790EED"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g filter="url(#folder-downloads-a)" transform="translate(7 18)">
+      <mask id="folder-downloads-d" fill="#fff">
+        <use xlink:href="#folder-downloads-b"/>
+      </mask>
+      <use fill="url(#folder-downloads-c)" xlink:href="#folder-downloads-b"/>
+      <g mask="url(#folder-downloads-d)">
+        <use fill="#000" filter="url(#folder-downloads-e)" xlink:href="#folder-downloads-f"/>
+        <use fill="url(#folder-downloads-g)" xlink:href="#folder-downloads-f"/>
+        <use fill="#000" filter="url(#folder-downloads-h)" xlink:href="#folder-downloads-f"/>
+      </g>
+      <g fill="url(#folder-downloads-i)" mask="url(#folder-downloads-d)">
+        <path d="M0,0 L82,0 L82,43.647241 C82,49.3591589 77.3695756,53.9895833 71.6576577,53.9895833 L10.3423423,53.9895833 C4.63042439,53.9895833 -1.07684864e-15,49.3591589 -1.77635684e-15,43.647241 L0,0 Z" transform="translate(0 17.01)"/>
+      </g>
+    </g>
+    <g transform="translate(29 42)">
+      <use fill="#000" filter="url(#folder-downloads-j)" xlink:href="#folder-downloads-k"/>
+      <use fill="url(#folder-downloads-l)" xlink:href="#folder-downloads-k"/>
+      <path fill="#FFF" d="M24,9 C24,9.55228475 23.5463624,10 23.1666667,10 L14.8333333,10 C14.4536376,10 14,9.55228475 14,9 C14,8.44771525 14.4536376,8 14.8333333,8 L23.1666667,8 C23.5463624,8 24,8.44771525 24,9 Z M14,12.8 L14,12.2 C14,11.6 14.5555556,11 15.1111111,11 L22.8888889,11 C23.4444444,11 24,11.6 24,12.2 L24,12.8 C24,13.4 23.4444444,14 22.8888889,14 L15.1111111,14 C14.5555556,14 14,13.4 14,12.8 Z M14.2551637,18.0742485 L14.2551637,17.1146666 C14.2551637,16.5573333 14.7981235,16 15.3410834,16 L22.9415223,16 C23.4844822,16 24.0274421,16.5573333 24.0274421,17.1146667 L24.0274423,18.0742486 C24.0274427,19.7366591 25.3722794,21.0787 27.0312191,21.0787 L26.9962238,21.0787 C28.6596416,21.0787 29.0794473,22.0529209 27.9438881,23.2546833 L21.0561119,30.5440167 C19.9189339,31.7474923 18.0794473,31.7457791 16.9438881,30.5440167 L10.0561119,23.2546833 C8.91893385,22.0512077 9.34284761,21.0787 10.9993341,21.0787 L11.2558296,21.0787 C12.9132741,21.0787 14.2551637,19.7335613 14.2551637,18.0742485 Z"/>
+      <path fill="url(#folder-downloads-m)" fill-rule="nonzero" d="M24,9 C24,9.55228475 23.5463624,10 23.1666667,10 L14.8333333,10 C14.4536376,10 14,9.55228475 14,9 C14,8.44771525 14.4536376,8 14.8333333,8 L23.1666667,8 C23.5463624,8 24,8.44771525 24,9 Z M23,9 C23,8.99321107 22.9939649,9 23.1666667,9 L14.8333333,9 C15.0060351,9 15,8.99321107 15,9 C15,9.00678893 15.0060351,9 14.8333333,9 L23.1666667,9 C22.9939649,9 23,9.00678893 23,9 Z M14,12.8 L14,12.2 C14,11.6 14.5555556,11 15.1111111,11 L22.8888889,11 C23.4444444,11 24,11.6 24,12.2 L24,12.8 C24,13.4 23.4444444,14 22.8888889,14 L15.1111111,14 C14.5555556,14 14,13.4 14,12.8 Z M15,12.8 C15,12.8641739 15.1257649,13 15.1111111,13 L22.8888889,13 C22.8742351,13 23,12.8641739 23,12.8 L23,12.2 C23,12.1358261 22.8742351,12 22.8888889,12 L15.1111111,12 C15.1257649,12 15,12.1358261 15,12.2 L15,12.8 Z M14.2551637,18.0742485 L14.2551637,17.1146666 C14.2551637,16.5573333 14.7981235,16 15.3410834,16 L22.9415223,16 C23.4844822,16 24.0274421,16.5573333 24.0274421,17.1146667 L24.0274423,18.0742486 C24.0274427,19.7366591 25.3722794,21.0787 27.0312191,21.0787 L26.9962238,21.0787 C28.6596416,21.0787 29.0794473,22.0529209 27.9438881,23.2546833 L21.0561119,30.5440167 C19.9189339,31.7474923 18.0794473,31.7457791 16.9438881,30.5440167 L10.0561119,23.2546833 C8.91893385,22.0512077 9.34284761,21.0787 10.9993341,21.0787 L11.2558296,21.0787 C12.9132741,21.0787 14.2551637,19.7335613 14.2551637,18.0742485 Z M26.9962238,22.0787 C26.9808104,22.0787 26.9655751,22.0784327 26.9505181,22.0779044 C24.7756253,22.0349841 23.0274428,20.2610008 23.0274423,18.0742488 L23.0274421,17.1146667 C23.0274421,17.1038551 22.9262654,17 22.9415223,17 L15.3410834,17 C15.3563403,17 15.2551637,17.1038551 15.2551637,17.1146666 L15.2551637,18.0742485 C15.2551637,20.285747 13.4656595,22.0787 11.2558296,22.0787 L10.9993341,22.0787 C10.2176119,22.0787 10.2500766,22.0039345 10.7829555,22.5678803 L17.6707317,29.8572137 C18.4123494,30.6420677 19.5873311,30.6424059 20.3292683,29.8572137 L27.2170445,22.5678803 C27.7380175,22.0165345 27.7807383,22.0756653 27.0478942,22.0785951 C27.0423592,22.0786649 27.0368008,22.0787 27.0312191,22.0787 C27.0269733,22.0787 27.0227291,22.0786934 27.0184864,22.0786802 C27.0111397,22.0786932 27.003719,22.0787 26.9962238,22.0787 Z"/>
+    </g>
+  </g>
+</svg>
+
+
+
         </div>
         <div class="row">
             <form id="upload-form">
-                <h3>Send files or text</h3>
+                <h3>File Drop</h3>
+                <div>
+                </div>
                 <div class="form-group">
                     <label for="files">
-                        Files to transfer
+                        File to transfer
+                    
                     </label>
                     <input class="form-control-file" type="file" id="files" name="files" multiple>
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="check-send-text">
-                    <label class="form-check-label" for="check-send-text">Show text options</label>
+                <div>
                 </div>
-                <div id="send-text-form" style="display: none">
-                    <div class="form-group">
-                        <label for="plaintext-title">
-                            Title
-                        </label>
-                        <input class="form-control" id="plaintext-title">   
-                    </div>
-                    <div class="form-group">
-                        <label for="plaintext-text">
-                            Text
-                        </label>
-                        <textarea class="form-control" id="plaintext-text"></textarea>
-                    </div>
+                <div>
                 </div>
                 <div class="form-group">
                     <input class="btn btn-primary form-control form-control-lg" type="submit" 
-                        id="submit" name="submit" value="Transfer">
+                        id="submit" name="submit" value="Send">
                 </div>
             </form>
         </div>
@@ -228,7 +188,7 @@ var Done = `
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>qrcp</title>
+    <title>File Drop</title>
     <style>
             /*!
         * Bootstrap v3.3.7 (http://getbootstrap.com)
