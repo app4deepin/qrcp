@@ -248,7 +248,7 @@ func New(cfg *config.Config) (*Server, error) {
 				}
 				transferredFiles = append(transferredFiles, out.Name())
 			}
-			progressBar.FinishPrint("Completed")
+			progressBar.FinishPrint("File transfer completed")
 			// Set the value of the variable to the actually transferred files
 			htmlVariables.File = strings.Join(transferredFiles, ", ")
 			serveTemplate("done", pages.Done, w, htmlVariables)
