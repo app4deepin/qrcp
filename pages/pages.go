@@ -191,7 +191,7 @@ var Done = `
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>qrcp</title>
+    <title>File Drop</title>
     <style>
             /*!
         * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -215,3 +215,4 @@ var Done = `
     </div>
 </body>
 </html>
+`
