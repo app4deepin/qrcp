@@ -112,14 +112,25 @@ var Upload = `
                 <h3>File Drop</h3>
                 <div class="form-group">
                     <label for="files">
-
                         Files to transfer
                     </label>
                     <input class="form-control-file" type="file" id="files" name="files" multiple>
                 </div>
-                <div>
-
-
+                <div class="form-group form-check">
+                </div>
+                <div id="send-text-form" style="display: none">
+                    <div class="form-group">
+                        <label for="plaintext-title">
+                            Title
+                        </label>
+                        <input class="form-control" id="plaintext-title">   
+                    </div>
+                    <div class="form-group">
+                        <label for="plaintext-text">
+                            Text
+                        </label>
+                        <textarea class="form-control" id="plaintext-text"></textarea>
+                    </div>
                 </div>
                 <div class="form-group">
                     <input class="btn btn-primary form-control form-control-lg" type="submit" 
@@ -128,6 +139,17 @@ var Upload = `
             </form>
         </div>
     </div>
+    <script>
+        var textCheckbox = document.getElementById('check-send-text')
+        var textForm = document.getElementById('send-text-form')
+        textCheckbox.onclick = function(e) {
+            if (this.checked) {
+                textForm.style.display = 'block'
+            } else {
+                textForm.style.display = 'none'
+            }
+        }
+    </script>
     <script>
         var uploadForm = document.getElementById('upload-form')
         uploadForm.addEventListener('submit', function(e) {
@@ -140,6 +162,16 @@ var Upload = `
                 }
             }
             var formData = new FormData(uploadForm)
+            var titleInput = document.getElementById('plaintext-title')
+            var textInput = document.getElementById('plaintext-text')
+            var textCheckbox = document.getElementById('check-send-text')
+            if ((titleInput.value || textInput.value) && textCheckbox.checked) {
+                var currentDate = new Date().toJSON().slice(0,19).replace(/[-T]/g,'_')
+                // If the user didn't specify a file name, use 'qrcp-text-file-${currentDate}'
+                var filename = titleInput.value || ("qrcp-text-file-" + currentDate)
+                var blob = new Blob([textInput.value + '\n'], { type: "text/plain" })
+                // Append the text file to the form data with '.txt' extension
+                formData.append("textFile", blob, filename + ".txt")
             }
             xhr.open("POST", "{{.Route}}")
             xhr.send(formData)
@@ -157,7 +189,7 @@ var Done = `
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>File Drop - Done</title>
+    <title>File Drop</title>
     <style>
             /*!
         * Bootstrap v3.3.7 (http://getbootstrap.com)
