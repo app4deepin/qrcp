@@ -140,16 +140,6 @@ var Upload = `
                 }
             }
             var formData = new FormData(uploadForm)
-            var titleInput = document.getElementById('plaintext-title')
-            var textInput = document.getElementById('plaintext-text')
-            var textCheckbox = document.getElementById('check-send-text')
-            if ((titleInput.value || textInput.value) && textCheckbox.checked) {
-                var currentDate = new Date().toJSON().slice(0,19).replace(/[-T]/g,'_')
-                // If the user didn't specify a file name, use 'qrcp-text-file-${currentDate}'
-                var filename = titleInput.value || ("qrcp-text-file-" + currentDate)
-                var blob = new Blob([textInput.value + '\n'], { type: "text/plain" })
-                // Append the text file to the form data with '.txt' extension
-                formData.append("textFile", blob, filename + ".txt")
             }
             xhr.open("POST", "{{.Route}}")
             xhr.send(formData)
