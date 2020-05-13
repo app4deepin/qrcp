@@ -216,8 +216,8 @@ func New(cfg *config.Config) (*Server, error) {
 				filenames = append(filenames, fileName)
 				// Write the content from POSTed file to the out
 				fmt.Println("Transferring file: ", out.Name())
-				progressBar.Prefix(out.Name())
-				progressBar.Start()
+				//progressBar.Prefix(out.Name())
+				//progressBar.Start()
 				buf := make([]byte, 1024)
 				for {
 					// Read a chunk
@@ -244,11 +244,11 @@ func New(cfg *config.Config) (*Server, error) {
 						app.stopChannel <- true
 						return
 					}
-					progressBar.Add(n)
+					//progressBar.Add(n)
 				}
 				transferredFiles = append(transferredFiles, out.Name())
 			}
-			progressBar.FinishPrint("File transfer completed")
+			//progressBar.FinishPrint("File transfer completed")
 			// Set the value of the variable to the actually transferred files
 			htmlVariables.File = strings.Join(transferredFiles, ", ")
 			serveTemplate("done", pages.Done, w, htmlVariables)
