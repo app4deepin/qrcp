@@ -109,30 +109,17 @@ var Upload = `
   </div>
         <div class="row">
             <form id="upload-form">
-                <h3>Send files or text</h3>
+                <h3>File Drop</h3>
                 <div class="form-group">
                     <label for="files">
+
                         Files to transfer
                     </label>
                     <input class="form-control-file" type="file" id="files" name="files" multiple>
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="check-send-text">
-                    <label class="form-check-label" for="check-send-text">Show text options</label>
-                </div>
-                <div id="send-text-form" style="display: none">
-                    <div class="form-group">
-                        <label for="plaintext-title">
-                            Title
-                        </label>
-                        <input class="form-control" id="plaintext-title">   
-                    </div>
-                    <div class="form-group">
-                        <label for="plaintext-text">
-                            Text
-                        </label>
-                        <textarea class="form-control" id="plaintext-text"></textarea>
-                    </div>
+                <div>
+
+
                 </div>
                 <div class="form-group">
                     <input class="btn btn-primary form-control form-control-lg" type="submit" 
@@ -141,17 +128,6 @@ var Upload = `
             </form>
         </div>
     </div>
-    <script>
-        var textCheckbox = document.getElementById('check-send-text')
-        var textForm = document.getElementById('send-text-form')
-        textCheckbox.onclick = function(e) {
-            if (this.checked) {
-                textForm.style.display = 'block'
-            } else {
-                textForm.style.display = 'none'
-            }
-        }
-    </script>
     <script>
         var uploadForm = document.getElementById('upload-form')
         uploadForm.addEventListener('submit', function(e) {
